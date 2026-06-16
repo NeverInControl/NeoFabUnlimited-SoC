@@ -1,0 +1,25 @@
+# --- Vivado / Hardware Trash ---
+*.jou
+*.log
+*.str
+*.zip
+*.pb
+*.wdb
+.Xil/
+hw/**/*.cache/
+hw/**/*.hw/
+hw/**/*.ip_user_files/
+hw/**/*.runs/
+hw/**/*.sim/
+
+# --- Zephyr / Software Trash ---
+sw/app/build/
+*.elf
+*.bin
+*.hex
+*.map
+.west/
+
+# --- OS Trash ---
+.DS_Store
+Thumbs.db
